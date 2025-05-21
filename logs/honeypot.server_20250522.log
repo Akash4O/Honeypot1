@@ -1,0 +1,59 @@
+2025-05-22 00:27:58,755 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 00:28:49,106 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 00:40:06,705 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 00:43:25,648 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 00:49:26,868 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 00:51:08,070 - honeypot.server - INFO - New alert received from ssh-honeypot-1: {"honeypot_id": "ssh-honeypot-1", "timestamp": "2025-05-22T00:51:06.016331", "data": {"source_ip": "127.0.0.1", "attack_type": "Common password attack", "details": {"connection_time": "2025-05-22T00:51:05.009996", "client_id": "SSH-2.0-PuTTY_Release_0.70", "password_attempt": "root"}}, "analysis": {"timestamp": "2025-05-22T00:51:08.069061", "source_ip": "127.0.0.1", "honeypot_id": "ssh-honeypot-1", "attack_type": "Common password attack", "threat_level": 1, "threat_level_label": "Medium", "attack_details": {"common_password": true, "password_used": "root"}, "is_known_attacker": true, "attack_count": 1, "recommendations": []}}
+2025-05-22 01:07:43,928 - honeypot.server - INFO - Starting FastAPI server on http://0.0.0.0:8000
+2025-05-22 01:07:43,928 - honeypot.server - INFO - Honeypot Manager and AI Analyzer initialized
+2025-05-22 01:07:43,928 - honeypot.server - INFO - Server has 0 honeypots configured
+2025-05-22 01:07:43,993 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:07:59,441 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:07:59,446 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:07:59,448 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:07:59,450 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:08:09,138 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:36:52,047 - honeypot.server - INFO - Starting FastAPI server on http://0.0.0.0:8000
+2025-05-22 01:36:52,048 - honeypot.server - INFO - Honeypot Manager and AI Analyzer initialized
+2025-05-22 01:36:52,049 - honeypot.server - INFO - Server has 0 honeypots configured
+2025-05-22 01:36:52,232 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:36:52,241 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:37:05,841 - honeypot.server - INFO - Starting FastAPI server on http://0.0.0.0:8000
+2025-05-22 01:37:05,842 - honeypot.server - INFO - Honeypot Manager and AI Analyzer initialized
+2025-05-22 01:37:05,842 - honeypot.server - INFO - Server has 0 honeypots configured
+2025-05-22 01:37:05,928 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:37:05,938 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:37:14,675 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:37:14,683 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:40:38,082 - honeypot.server - INFO - Starting FastAPI server on http://0.0.0.0:8000
+2025-05-22 01:40:38,082 - honeypot.server - INFO - Honeypot Manager and AI Analyzer initialized
+2025-05-22 01:40:38,082 - honeypot.server - INFO - Server has 0 honeypots configured
+2025-05-22 01:40:38,141 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:40:49,723 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:40:49,728 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:40:49,732 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:40:49,737 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:40:59,490 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:41:54,068 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:41:54,077 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:46:30,340 - honeypot.server - INFO - Starting FastAPI server on http://0.0.0.0:8000
+2025-05-22 01:46:30,340 - honeypot.server - INFO - Honeypot Manager and AI Analyzer initialized
+2025-05-22 01:46:30,340 - honeypot.server - INFO - Server has 0 honeypots configured
+2025-05-22 01:46:30,425 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:46:44,318 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:46:44,322 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:46:49,882 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:46:49,886 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:46:54,139 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:47:00,204 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:47:04,141 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:53:01,736 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:53:01,745 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:56:26,188 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:56:26,190 - honeypot.server - INFO - Honeypot startup task initiated
+2025-05-22 01:56:26,192 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:56:26,192 - honeypot.server - INFO - All honeypots stopped successfully
+2025-05-22 01:58:20,193 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:58:20,193 - honeypot.server - INFO - Honeypot startup task initiated
+2025-05-22 01:58:20,202 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:58:20,203 - honeypot.server - INFO - All honeypots stopped successfully

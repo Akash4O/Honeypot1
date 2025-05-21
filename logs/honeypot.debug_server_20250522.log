@@ -1,0 +1,12 @@
+2025-05-22 01:59:03,735 - honeypot.debug_server - INFO - Starting FastAPI debug server on http://0.0.0.0:8000
+2025-05-22 01:59:03,736 - honeypot.debug_server - INFO - This is a debug version that doesn't start actual honeypots
+2025-05-22 02:03:02,177 - honeypot.debug_server - INFO - Processed and stored alert from ssh-honeypot-1
+2025-05-22 02:03:05,226 - honeypot.debug_server - INFO - Processed and stored alert from ssh-honeypot-1
+2025-05-22 02:03:08,262 - honeypot.debug_server - INFO - Processed and stored alert from web-honeypot-1
+2025-05-22 02:03:11,305 - honeypot.debug_server - INFO - Processed and stored alert from web-honeypot-1
+2025-05-22 02:03:14,356 - honeypot.debug_server - INFO - Processed and stored alert from web-honeypot-1
+2025-05-22 02:20:37,621 - honeypot.debug_server - INFO - Processed and stored alert from ssh-honeypot-1
+2025-05-22 02:20:40,632 - honeypot.debug_server - INFO - Processed and stored alert from ssh-honeypot-1
+2025-05-22 02:20:43,637 - honeypot.debug_server - INFO - Processed and stored alert from web-honeypot-1
+2025-05-22 02:20:46,646 - honeypot.debug_server - INFO - Processed and stored alert from web-honeypot-1
+2025-05-22 02:20:49,653 - honeypot.debug_server - INFO - Processed and stored alert from web-honeypot-1

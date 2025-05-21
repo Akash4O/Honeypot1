@@ -1,0 +1,22 @@
+2025-05-22 00:27:58,760 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 00:28:49,111 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 00:35:31,534 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:35:35,487 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:40:06,722 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 00:40:36,059 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:40:38,714 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:43:25,652 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 00:47:47,774 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:49:26,871 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 00:51:05,009 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:51:07,600 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 01:07:43,997 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 01:36:52,238 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:37:05,936 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:37:14,682 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:40:38,144 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 01:41:54,075 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:46:30,431 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 01:53:01,742 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:56:26,192 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:58:20,200 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted

@@ -1,0 +1,214 @@
+2025-05-22 00:27:58,554 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 00:27:58,755 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 00:27:58,756 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 00:27:58,757 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 00:27:58,757 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 00:27:58,757 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 00:27:58,757 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 00:27:58,759 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8080
+2025-05-22 00:27:58,760 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8080): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 00:27:58,760 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 00:28:49,041 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 00:28:49,106 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 00:28:49,108 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 00:28:49,108 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 00:28:49,108 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 00:28:49,108 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 00:28:49,109 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 00:28:49,109 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8080
+2025-05-22 00:28:49,110 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8080): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 00:28:49,111 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 00:35:31,534 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:35:32,549 - honeypot - INFO - Activity recorded from 127.0.0.1 on ssh-honeypot-1
+2025-05-22 00:35:32,549 - honeypot - INFO - Alert sent to API: {"honeypot_id": "ssh-honeypot-1", "timestamp": "2025-05-22T00:35:32.549369", "data": {"source_ip": "127.0.0.1", "attack_type": "Brute force attempt", "details": {"connection_time": "2025-05-22T00:35:31.534138", "client_id": "SSH-2.0-OpenSSH_7.5", "password_attempt": "password123"}}}
+2025-05-22 00:35:32,658 - honeypot - INFO - Alert details: {'honeypot_id': 'ssh-honeypot-1', 'timestamp': '2025-05-22T00:35:32.549369', 'data': {'source_ip': '127.0.0.1', 'attack_type': 'Brute force attempt', 'details': {'connection_time': '2025-05-22T00:35:31.534138', 'client_id': 'SSH-2.0-OpenSSH_7.5', 'password_attempt': 'password123'}}}
+2025-05-22 00:35:35,487 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:35:36,502 - honeypot - INFO - Activity recorded from 127.0.0.1 on ssh-honeypot-1
+2025-05-22 00:35:36,502 - honeypot - INFO - Alert sent to API: {"honeypot_id": "ssh-honeypot-1", "timestamp": "2025-05-22T00:35:36.502078", "data": {"source_ip": "127.0.0.1", "attack_type": "Common password attack", "details": {"connection_time": "2025-05-22T00:35:35.487857", "client_id": "SSH-2.0-HACKER_Custom_Client", "password_attempt": "admin"}}}
+2025-05-22 00:40:06,656 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 00:40:06,705 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 00:40:06,706 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 00:40:06,706 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 00:40:06,706 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 00:40:06,707 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 00:40:06,707 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 00:40:06,707 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8080
+2025-05-22 00:40:06,708 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8080): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 00:40:06,722 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 00:40:36,059 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:40:37,065 - honeypot - INFO - Activity recorded from 127.0.0.1 on ssh-honeypot-1
+2025-05-22 00:40:37,065 - honeypot - INFO - Alert sent to API: {"honeypot_id": "ssh-honeypot-1", "timestamp": "2025-05-22T00:40:37.065097", "data": {"source_ip": "127.0.0.1", "attack_type": "Brute force attempt", "details": {"connection_time": "2025-05-22T00:40:36.059444", "client_id": "SSH-2.0-JSCH-0.1.54", "password_attempt": "letmein"}}}
+2025-05-22 00:40:37,174 - honeypot - INFO - Alert details: {'honeypot_id': 'ssh-honeypot-1', 'timestamp': '2025-05-22T00:40:37.065097', 'data': {'source_ip': '127.0.0.1', 'attack_type': 'Brute force attempt', 'details': {'connection_time': '2025-05-22T00:40:36.059444', 'client_id': 'SSH-2.0-JSCH-0.1.54', 'password_attempt': 'letmein'}}}
+2025-05-22 00:40:38,714 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:40:39,721 - honeypot - INFO - Activity recorded from 127.0.0.1 on ssh-honeypot-1
+2025-05-22 00:40:39,721 - honeypot - INFO - Alert sent to API: {"honeypot_id": "ssh-honeypot-1", "timestamp": "2025-05-22T00:40:39.721110", "data": {"source_ip": "127.0.0.1", "attack_type": "Common password attack", "details": {"connection_time": "2025-05-22T00:40:38.714619", "client_id": "SSH-2.0-libssh2_1.8.0", "password_attempt": "admin"}}}
+2025-05-22 00:43:25,576 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 00:43:25,648 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 00:43:25,649 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 00:43:25,649 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 00:43:25,649 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 00:43:25,649 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 00:43:25,650 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 00:43:25,650 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8080
+2025-05-22 00:43:25,651 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8080): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 00:43:25,652 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 00:47:47,774 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:47:47,797 - honeypot - INFO - Activity recorded from 127.0.0.1 on ssh-honeypot-1
+2025-05-22 00:47:47,797 - honeypot - INFO - Alert sent to API: {"honeypot_id": "ssh-honeypot-1", "timestamp": "2025-05-22T00:47:47.797521", "data": {"source_ip": "127.0.0.1", "attack_type": "Connection attempt", "details": {"connection_time": "2025-05-22T00:47:47.775462"}}}
+2025-05-22 00:47:47,907 - honeypot - INFO - Alert details: {'honeypot_id': 'ssh-honeypot-1', 'timestamp': '2025-05-22T00:47:47.797521', 'data': {'source_ip': '127.0.0.1', 'attack_type': 'Connection attempt', 'details': {'connection_time': '2025-05-22T00:47:47.775462'}}}
+2025-05-22 00:49:26,810 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 00:49:26,868 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 00:49:26,868 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 00:49:26,869 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 00:49:26,869 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 00:49:26,869 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 00:49:26,869 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 00:49:26,869 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8080
+2025-05-22 00:49:26,870 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8080): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 00:49:26,871 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 00:51:05,009 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:51:06,016 - honeypot - INFO - Activity recorded from 127.0.0.1 on ssh-honeypot-1
+2025-05-22 00:51:06,017 - honeypot - INFO - Sending alert to API: http://localhost:8000/honeypot/ssh-honeypot-1/alert
+2025-05-22 00:51:07,600 - honeypot.ssh - INFO - SSH connection from 127.0.0.1
+2025-05-22 00:51:08,070 - honeypot.ai - INFO - AI analysis completed for event from 127.0.0.1: Threat level Medium
+2025-05-22 01:07:43,923 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 01:07:43,928 - honeypot.server - INFO - Starting FastAPI server on http://0.0.0.0:8000
+2025-05-22 01:07:43,928 - honeypot.server - INFO - Honeypot Manager and AI Analyzer initialized
+2025-05-22 01:07:43,928 - honeypot.server - INFO - Server has 0 honeypots configured
+2025-05-22 01:07:43,993 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:07:43,994 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 01:07:43,994 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 01:07:43,994 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 01:07:43,994 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 01:07:43,996 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 01:07:43,996 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8080
+2025-05-22 01:07:43,996 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8080): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:07:43,997 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 01:07:59,441 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:07:59,446 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:07:59,448 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:07:59,450 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:36:52,035 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 01:36:52,047 - honeypot.server - INFO - Starting FastAPI server on http://0.0.0.0:8000
+2025-05-22 01:36:52,048 - honeypot.server - INFO - Honeypot Manager and AI Analyzer initialized
+2025-05-22 01:36:52,049 - honeypot.server - INFO - Server has 0 honeypots configured
+2025-05-22 01:36:52,232 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:36:52,233 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 01:36:52,234 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 01:36:52,235 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 01:36:52,235 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 01:36:52,236 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 01:36:52,236 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8080
+2025-05-22 01:36:52,238 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:36:52,239 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8080): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:36:52,241 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:37:05,833 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 01:37:05,841 - honeypot.server - INFO - Starting FastAPI server on http://0.0.0.0:8000
+2025-05-22 01:37:05,842 - honeypot.server - INFO - Honeypot Manager and AI Analyzer initialized
+2025-05-22 01:37:05,842 - honeypot.server - INFO - Server has 0 honeypots configured
+2025-05-22 01:37:05,928 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:37:05,929 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 01:37:05,931 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 01:37:05,931 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 01:37:05,933 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 01:37:05,934 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 01:37:05,934 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8080
+2025-05-22 01:37:05,936 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:37:05,937 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8080): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:37:05,938 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:37:14,664 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 01:37:14,675 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:37:14,677 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 01:37:14,677 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 01:37:14,678 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 01:37:14,678 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 01:37:14,680 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 01:37:14,680 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8080
+2025-05-22 01:37:14,682 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:37:14,682 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8080): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:37:14,683 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:08:09,138 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:40:38,077 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 01:40:38,082 - honeypot.server - INFO - Starting FastAPI server on http://0.0.0.0:8000
+2025-05-22 01:40:38,082 - honeypot.server - INFO - Honeypot Manager and AI Analyzer initialized
+2025-05-22 01:40:38,082 - honeypot.server - INFO - Server has 0 honeypots configured
+2025-05-22 01:40:38,141 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:40:38,141 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 01:40:38,141 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 01:40:38,141 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 01:40:38,141 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 01:40:38,142 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 01:40:38,142 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8080
+2025-05-22 01:40:38,143 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8080): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:40:38,144 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 01:40:49,723 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:40:49,728 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:40:49,732 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:40:49,737 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:41:54,060 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 01:41:54,068 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:41:54,069 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 01:41:54,070 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 01:41:54,071 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 01:41:54,072 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 01:41:54,073 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 01:41:54,073 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8080
+2025-05-22 01:41:54,075 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:41:54,076 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8080): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:41:54,077 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:46:30,331 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 01:46:30,340 - honeypot.server - INFO - Starting FastAPI server on http://0.0.0.0:8000
+2025-05-22 01:46:30,340 - honeypot.server - INFO - Honeypot Manager and AI Analyzer initialized
+2025-05-22 01:46:30,340 - honeypot.server - INFO - Server has 0 honeypots configured
+2025-05-22 01:46:30,425 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:46:30,427 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 01:46:30,427 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 01:46:30,428 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 01:46:30,428 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 01:46:30,429 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 01:46:30,429 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8089
+2025-05-22 01:46:30,431 - honeypot.ssh - INFO - SSH honeypot ssh-honeypot-1 listening on 0.0.0.0:2222
+2025-05-22 01:46:30,431 - honeypot.web - INFO - Web honeypot web-honeypot-1 listening on 0.0.0.0:8089
+2025-05-22 01:46:44,318 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:46:44,322 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:46:49,882 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:46:49,886 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:46:54,139 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:47:00,204 - honeypot.server - INFO - GET /alerts - Returning 0 alerts
+2025-05-22 01:53:01,726 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 01:53:01,736 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:53:01,737 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 01:53:01,738 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 01:53:01,738 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 01:53:01,739 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 01:53:01,739 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 01:53:01,741 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8089
+2025-05-22 01:53:01,742 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:53:01,744 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8089): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:53:01,745 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:56:26,180 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 01:56:26,188 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:56:26,190 - honeypot.server - INFO - Honeypot startup task initiated
+2025-05-22 01:56:26,190 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 01:56:26,190 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 01:56:26,191 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 01:56:26,191 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 01:56:26,191 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 01:56:26,191 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8089
+2025-05-22 01:56:26,192 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:56:26,192 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8089): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:56:26,192 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:56:26,192 - honeypot.server - INFO - All honeypots stopped successfully
+2025-05-22 01:58:20,183 - honeypot.ai - INFO - Rule-based analysis patterns initialized
+2025-05-22 01:58:20,193 - honeypot.server - INFO - Starting honeypot server
+2025-05-22 01:58:20,193 - honeypot.server - INFO - Honeypot startup task initiated
+2025-05-22 01:58:20,195 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 01:58:20,196 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 01:58:20,196 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 01:58:20,197 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 01:58:20,198 - honeypot - INFO - Honeypot ssh-honeypot-1 started on 0.0.0.0:2222
+2025-05-22 01:58:20,198 - honeypot - INFO - Honeypot web-honeypot-1 started on 0.0.0.0:8089
+2025-05-22 01:58:20,200 - honeypot.ssh - ERROR - Failed to start SSH honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 2222): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:58:20,201 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8089): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 01:58:20,202 - honeypot.server - INFO - Stopping honeypot server
+2025-05-22 01:58:20,203 - honeypot.server - INFO - All honeypots stopped successfully

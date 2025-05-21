@@ -1,0 +1,13 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+python-jose==3.3.0
+passlib==1.7.4
+python-dotenv==1.0.0
+pyyaml==6.0.1
+sqlalchemy==2.0.20
+jinja2==3.1.2
+aiohttp==3.9.1
+python-dateutil==2.8.2
+python-whois==0.7.3
+setuptools>=65.5.0
