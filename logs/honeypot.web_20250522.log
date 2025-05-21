@@ -13,3 +13,7 @@
 2025-05-22 01:53:01,744 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8089): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
 2025-05-22 01:56:26,192 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8089): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
 2025-05-22 01:58:20,201 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8089): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 02:46:37,946 - honeypot.web - INFO - Web honeypot web-honeypot-1 listening on 0.0.0.0:8089
+2025-05-22 02:58:41,583 - honeypot.web - ERROR - Failed to start Web honeypot: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8089): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+2025-05-22 02:59:22,787 - honeypot.web - INFO - Web honeypot web-honeypot-1 listening on 0.0.0.0:8089
+2025-05-22 03:01:01,543 - honeypot.web - INFO - Web honeypot web-honeypot-1 listening on 0.0.0.0:8089

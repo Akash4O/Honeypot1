@@ -3,6 +3,7 @@ import logging
 import os
 import signal
 import json
+from datetime import datetime
 from fastapi import FastAPI, HTTPException, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -130,15 +131,22 @@ async def get_alerts():
 @app.post("/honeypot/{honeypot_id}/alert")
 async def create_alert(honeypot_id: str, alert_data: dict):
     """Create a new alert and analyze it with AI."""
-    logger.info(f"POST /honeypot/{honeypot_id}/alert - Received alert data")
+    logger.info(f"POST /honeypot/{honeypot_id}/alert - Received alert data: {json.dumps(alert_data)}")
     
     try:
         # Create the basic alert
         alert = {
             "honeypot_id": honeypot_id,
             "timestamp": alert_data.get("timestamp", datetime.now().isoformat()),
-            "data": alert_data.get("data", {})
+            "data": alert_data.get("data", alert_data)  # Fallback to using the entire payload as data
         }
+        
+        # Ensure data has source_ip and attack_type fields
+        if "source_ip" not in alert["data"] and alert["data"].get("details", {}).get("source_ip"):
+            alert["data"]["source_ip"] = alert["data"]["details"]["source_ip"]
+            
+        if "attack_type" not in alert["data"]:
+            alert["data"]["attack_type"] = "Unknown Attack"
         
         # Use AI to analyze the alert
         logger.info(f"Analyzing alert with AI engine...")
@@ -155,6 +163,8 @@ async def create_alert(honeypot_id: str, alert_data: dict):
         return alert
     except Exception as e:
         logger.error(f"Error processing alert: {str(e)}")
+        import traceback
+        logger.error(f"Exception traceback: {traceback.format_exc()}")
         raise HTTPException(status_code=500, detail=f"Error processing alert: {str(e)}")
 
 @app.get("/threat-intelligence")

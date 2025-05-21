@@ -58,3 +58,21 @@
 2025-05-22 01:58:20,196 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
 2025-05-22 01:58:20,196 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
 2025-05-22 01:58:20,197 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 02:46:37,943 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 02:46:37,944 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 02:46:37,944 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 02:46:37,944 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 02:58:41,581 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 02:58:41,582 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 02:58:41,582 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 02:58:41,582 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 02:59:22,785 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 02:59:22,785 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 02:59:22,785 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 02:59:22,785 - honeypot.manager - INFO - Starting honeypot web-honeypot-1
+2025-05-22 03:00:43,768 - honeypot.manager - INFO - Stopping honeypot ssh-honeypot-1
+2025-05-22 03:00:43,768 - honeypot.manager - INFO - Stopping honeypot web-honeypot-1
+2025-05-22 03:01:01,538 - honeypot.manager - INFO - Created SSH honeypot with ID ssh-honeypot-1
+2025-05-22 03:01:01,539 - honeypot.manager - INFO - Created Web honeypot with ID web-honeypot-1
+2025-05-22 03:01:01,539 - honeypot.manager - INFO - Starting honeypot ssh-honeypot-1
+2025-05-22 03:01:01,539 - honeypot.manager - INFO - Starting honeypot web-honeypot-1

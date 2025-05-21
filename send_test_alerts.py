@@ -20,7 +20,7 @@ logging.basicConfig(
 logger = logging.getLogger("test_alerts")
 
 # API endpoint
-API_URL = "http://localhost:8000/honeypots/{honeypot_id}/alerts"
+API_URL = "http://localhost:8000/honeypot/{honeypot_id}/alert"
 
 # Test alerts
 TEST_ALERTS = [

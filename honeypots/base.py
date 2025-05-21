@@ -104,18 +104,38 @@ class BaseHoneypot(abc.ABC):
             
             logger.info(f"Sending alert to API: {api_url}")
             
+            # Ensure the event data is in the correct format
+            if 'data' not in event and 'timestamp' not in event:
+                # We need to format this as API expects
+                api_payload = {
+                    "timestamp": datetime.now().isoformat(),
+                    "data": event
+                }
+            else:
+                api_payload = event
+            
             # Make the actual HTTP request to the API
             async with aiohttp.ClientSession() as session:
-                async with session.post(api_url, json=event) as response:
+                async with session.post(api_url, json=api_payload) as response:
                     if response.status == 200:
                         logger.info(f"Alert successfully sent to API: {self.id}")
+                        # Log success with the response
+                        response_text = await response.text()
+                        logger.info(f"API Response: {response_text}")
                     else:
                         logger.error(f"Failed to send alert: HTTP {response.status}")
                         response_text = await response.text()
-                        logger.error(f"Response: {response_text}")
+                        logger.error(f"Error Response: {response_text}")
             
-            # Log the event details
-            logger.info(f"Alert details: {json.dumps(event)}")
+            # Log the event details for debugging
+            logger.info(f"Alert details sent: {json.dumps(api_payload)}")
             
         except Exception as e:
             logger.error(f"Failed to send alert: {str(e)}")
+            logger.error(f"Alert that failed: {json.dumps(event)}")
+            # For debugging, print the full exception info
+            import traceback
+            logger.error(f"Exception traceback: {traceback.format_exc()}")
+            
+            # Make sure the server is running
+            logger.error("Make sure the backend server is running at http://localhost:8000")
